@@ -1,0 +1,15 @@
+set clipboard=unnamed
+let mapleader=','
+inoremap jk <Esc>`^
+inoremap ff <Esc>la
+nnoremap <c-n> :noh
+nnoremap ,r :action Run<CR>
+nnoremap ,d :action Debug<CR>
+nnoremap <c-h> <c-w>h
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-l> <c-w>l
+set easymotion
+set surround
+set commentary
+let g:EasyMotion_override_acejump = 0
