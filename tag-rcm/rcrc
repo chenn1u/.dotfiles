@@ -1,2 +1,2 @@
-TAGS="rcm git zsh idea conda"
+TAGS="tmux rcm git zsh idea conda"
 EXCLUDES="README.md"
