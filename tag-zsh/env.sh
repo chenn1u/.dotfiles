@@ -45,9 +45,12 @@ bindkey ',' autosuggest-accept
 
 alias vi="\vim"
 alias vim="nvim"
-alias cel="conda env list"
 alias cl="clear"
 alias ex="extract"
+
+# conda
+alias cel="conda env list"
+alias ca="conda activate"
 
 # docker
 alias dp="docker ps"
