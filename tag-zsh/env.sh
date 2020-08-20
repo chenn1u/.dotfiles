@@ -20,9 +20,9 @@ unset __conda_setup
 export PATH="/Users/nchen/bin:/usr/local/opt/openjdk/bin:$PATH"
 
 # terminal proxy
-# export https_proxy=http://127.0.0.1:7890
-# export http_proxy=http://127.0.0.1:7890
-# export all_proxy=socks5://127.0.0.1:7891
+export https_proxy=http://127.0.0.1:7890
+export http_proxy=http://127.0.0.1:7890
+export all_proxy=socks5://127.0.0.1:7891
 
 # tmux conda
 source /Users/nchen/miniconda3/etc/profile.d/conda.sh
@@ -51,6 +51,7 @@ alias ex="extract"
 # conda
 alias cel="conda env list"
 alias ca="conda activate"
+alias cls="conda list"
 
 # docker
 alias dp="docker ps"
